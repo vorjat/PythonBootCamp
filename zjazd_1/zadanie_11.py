@@ -2,7 +2,7 @@ X = int(input("Podaj pozycję gracza X: "))
 Y = int(input("Podaj pozycję gracza Y: "))
 
 # poza planszą
-if X < 0 or X > 100 or Y > 0 or Y > 100:
+if X < 0 or X > 100 or Y < 0 or Y > 100:
     print("Poza planszą")
 elif Y >= 90 and X >= 10 and X <= 90:
     print("Górna krawędź")
