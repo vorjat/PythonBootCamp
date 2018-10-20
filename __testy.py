@@ -1,3 +1,6 @@
-a = ('a','b')
-a = ('b','a')
-print(a)
+a = 1
+b = 2
+
+a,b = b,a
+
+print (a,b)
