@@ -21,10 +21,10 @@ while n < len(lista):
             else:
                 if liczba < min:
                     min = liczba
-
+                    tempindex = i
             if min != lista[n]:
                 lista[n], lista[tempindex] = lista[tempindex], lista[n]
-
+    print(lista)
     n += 1
 
 print("Posortowane:")
