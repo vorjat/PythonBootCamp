@@ -1,6 +1,8 @@
 import json
 import urllib.request
 import sys
+import tkinter
+tkinter.Label(master=root, text="Parametr a")
 
 #cityname = input ("City name: ")
 cityname = sys.argv[1]
